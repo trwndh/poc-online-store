@@ -1,0 +1,16 @@
+{
+  "data": {
+    "cart_id": %d,
+    "user_id": %d,
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "Keyboard Wireless",
+        "quantity": 10,
+        "price": 2000,
+        "sub_total": 20000
+      }
+    ],
+    "total_price": 20000
+  }
+}
