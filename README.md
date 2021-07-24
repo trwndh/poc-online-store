@@ -101,7 +101,7 @@ No cart service and no payment service provided in this repo.
 ### Tech used
 
 ```
-- Jaeger as opentracing tracer. open http://localhost:16686/ to access Jaeger UI. and select
+- Jaeger as opentracing tracer. open http://localhost:16686/ to access Jaeger UI
 - MySQL
 - Golang 
 ```
