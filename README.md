@@ -7,15 +7,14 @@ so the stock will keep going reduced and become negative everytime user checkout
 In checkout stage, the system did not check or reserve stock per item in the cart. 
 Or if it did, it reserving wrong value of stock.
 and then finally, they can paid without knowing the availability of their purchased item stock.
-```
 Row locking in database is a must for a row that can be edited by many users at (nearly) same time. 
-```
+
 
 Why? 
 Because it will block every transaction before it commited. 
 This will prevent newer transaction read uncommited data proceed by previous transaction.
 
-###How stock can be a negative number?
+### How stock can be a negative number?
 ```
 Let's say I have Product A, with stock of 100.
 Transaction A is modifying Product A, to reduce the stock by 50. 
